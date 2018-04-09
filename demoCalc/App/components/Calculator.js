@@ -141,7 +141,7 @@ this.props.setSelectedSymbol(str);
         return (
             <View style={Style.rootContainer}>
                 <View style={Style.displayContainer}>
-                <Text style={{color:'white',fontSize:38,flex:0.5,textAlign:'right',fontWeight:'bold',padding: 20,top:65}}>{this.props.value}</Text>
+                <Text numberOfLines={1} style={{color:'white',fontSize:38,flex:0.5,textAlign:'right',fontWeight:'bold',padding: 20,top:65}}>{this.props.value}</Text>
                  </View>
                 <View style={Style.inputContainer}>
                     {this.renderInputButtons()}
